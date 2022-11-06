@@ -207,10 +207,9 @@ a.logo:hover{
     color: #1F2937;
 }
 
-.feature-heading,
-.about-heading {
+.feature-heading {
     color: #1F2937;
-    font-size: 3vw;
+    font-size: 28px;
     font-weight: bold;
     margin: 35px 0;
 }
@@ -238,7 +237,7 @@ blockquote footer {
 
 .testimonial {
     background-color: #E5E7EB;
-    font-size: 2vw;
+    font-size: 20px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
@@ -255,7 +254,7 @@ blockquote footer {
 /* CALL TO ACTION SECTION */
 #cta {
     padding: 100px 180px;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 .cta-banner {
@@ -308,24 +307,7 @@ blockquote footer {
     margin-bottom: 20px;
 }
 
-.mission-icon,
-.values-icon,
-.vision-icon {
-    width: 25%;
-    font-size: 36px;
-    padding: 40px;
-    text-align: center;
-    border: 3px solid #3882F6;
-    border-radius: 8px;
-    margin-right: 50px;
-}
 
-.mission-statement,
-.vision-statement,
-.values-statement {
-    text-align: left;
-    padding: 5px 0;
-}
 
 .about-feature h3 {
     color: #3882F6;
@@ -350,8 +332,8 @@ section.sign-up {
 
 .sign-up-form {
     text-align: center;
-    height: auto;
-    padding: 150px 0;
+    height: 100vh;
+    padding: 150px 30px;
 }
 
 .sign-up-form h1 {
@@ -369,6 +351,7 @@ label {
 input {
     display: block;
     height: 25px;
+    width: 100%;
     margin-bottom: 5px;
     border-radius: 8px;
     padding: 10px 10px;
@@ -395,11 +378,12 @@ input[type=email]:focus {
 
 form {
     background-color: #444950;
-    display: inline-block;
-    padding: 80px;
+    padding: 40px;
+    margin: 0 auto;
     border-radius: 8px;
     text-align: left;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 70%;
 
 }
 
@@ -515,11 +499,12 @@ form h2 {
 
     .anxiety-container{
         flex-wrap: wrap;
-        padding: 200px 30px 50px 30px;
+        padding: 100px 30px 50px 30px;
 
     }
     .anxiety-content-container, .page-nav{
         width: 100%;
+        padding: 0;
     }
     .page-nav{
         margin: 10px 0;
@@ -608,6 +593,15 @@ form h2 {
     }
     .navbar-brand{
         right: 80px;
+        display: none;
+    }
+    div.more-symptoms div {
+        display: block;
+        margin: 0;
+    }
+    .testimonial {
+        padding-right: 20px;
+        padding-left: 20px;
     }
 }
 
